@@ -54,6 +54,7 @@
      <Compile Include="Assets\Sсripts\CameraMovement.cs" />
      <Compile Include="Assets\Sсripts\Lever_Trigger.cs" />
      <Compile Include="Assets\Sсripts\LightMovement.cs" />
+     <Compile Include="Assets\Sсripts\Menu.cs" />
      <Compile Include="Assets\Sсripts\movement.cs" />
      <Compile Include="Assets\Sсripts\Terminal.cs" />
      <Compile Include="Assets\Sсripts\Terminal_Trigger.cs" />

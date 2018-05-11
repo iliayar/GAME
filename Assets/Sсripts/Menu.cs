@@ -1,0 +1,18 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Menu : MonoBehaviour {
+    public void PlaySuka()
+    {
+        Application.LoadLevel(2);
+    }
+    public void SettingsSuka()
+    {
+
+    }
+    public void ExitSuka()
+    {
+        Application.Quit();
+    }
+}
