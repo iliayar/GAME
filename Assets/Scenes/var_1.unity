@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1269,14 +1269,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 453923706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1fdb08f17d4a304eaf16bdf7d9968f9, type: 3}
+  m_Script: {fileID: 11500000, guid: c35b022e8ebf2464fa34c340b841cbd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AM: {fileID: 0}
   text: {fileID: 2038559920}
   player: {fileID: 1805384757}
-  LeverOff: {fileID: 21300000, guid: 0f3d0eb3626b0654398b4532dc202585, type: 3}
-  LeverOn: {fileID: 21300000, guid: 6b1bfe4c31052494f87e866b610a1a41, type: 3}
+  LeverOff: {fileID: 21300000, guid: 690c088f177944d4f8cbd302870dc35b, type: 3}
+  LeverOn: {fileID: 21300000, guid: cf26697b4e1cae9479825ea88be37481, type: 3}
   Source: {fileID: 1128205118}
   state: 0
   script: {fileID: 1883743831}
@@ -2264,7 +2264,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b062e309b08d27b4495cf3a0768b2060, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2284,7 +2284,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 687f188f7a695874cb60b1c501bd8b79, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cf26697b4e1cae9479825ea88be37481, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3797,7 +3797,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1883743828}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9fb19d25658f9a439e4d330eefa6f7f, type: 3}
+  m_Script: {fileID: 11500000, guid: f34ce7b1f7a853148b8a19f0890bb193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 914356303}
@@ -4214,7 +4214,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b062e309b08d27b4495cf3a0768b2060, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4234,7 +4234,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 847c4e1fb40284e42ad9bbb1a3d4fc6e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e917442ecec5924fbd403314a79914a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4284,7 +4284,6 @@ GameObject:
   - component: {fileID: 2091277739}
   - component: {fileID: 2091277738}
   - component: {fileID: 2091277737}
-  - component: {fileID: 2091277736}
   - component: {fileID: 2091277740}
   - component: {fileID: 2091277741}
   m_Layer: 0
@@ -4294,13 +4293,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2091277736
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2091277735}
-  m_Enabled: 1
 --- !u!124 &2091277737
 Behaviour:
   m_ObjectHideFlags: 0
