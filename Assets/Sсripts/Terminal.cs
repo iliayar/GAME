@@ -109,6 +109,7 @@ public class Terminal : MonoBehaviour {
                         TermText.text += "Locked!";
                         TermText.text += "\n>";
                         StringFirstSign = TermText.text.Length;
+                        ApplicationModel.entrance_state = false;
                         break;
 
                     case "unlck":
@@ -122,7 +123,7 @@ public class Terminal : MonoBehaviour {
 
                     case "exit":
                     case "quit":
-                        SceneManager.UnloadScene(0);
+                        SceneManager.UnloadScene("Terminal_scene");
                         break;
                     default:
                         TermText.text += "Unknown command";

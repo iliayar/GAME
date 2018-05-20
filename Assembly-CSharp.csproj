@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Sсripts\CameraMovement.cs" />
+     <Compile Include="Assets\Sсripts\Door.cs" />
      <Compile Include="Assets\Sсripts\Lever_Trigger.cs" />
      <Compile Include="Assets\Sсripts\LightMovement.cs" />
      <Compile Include="Assets\Sсripts\movement.cs" />

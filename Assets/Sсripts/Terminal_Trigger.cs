@@ -40,7 +40,7 @@ public class Terminal_Trigger : MonoBehaviour {
             if(Input.GetKeyDown(KeyCode.F))
             {
                 if (SceneManager.GetActiveScene().name != "var_1") return;
-                SceneManager.LoadScene(0,LoadSceneMode.Additive);
+                SceneManager.LoadScene("Terminal_scene",LoadSceneMode.Additive);
             }
         }
     }
