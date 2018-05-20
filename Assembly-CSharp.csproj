@@ -56,6 +56,8 @@
      <Compile Include="Assets\Sсripts\Lever_Trigger.cs" />
      <Compile Include="Assets\Sсripts\LightMovement.cs" />
      <Compile Include="Assets\Sсripts\movement.cs" />
+     <Compile Include="Assets\Sсripts\PC.cs" />
+     <Compile Include="Assets\Sсripts\PC_Trigger.cs" />
      <Compile Include="Assets\Sсripts\Terminal.cs" />
      <Compile Include="Assets\Sсripts\Terminal_Trigger.cs" />
      <Compile Include="Assets\Sсripts\WorkMenu.cs" />
