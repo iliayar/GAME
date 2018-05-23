@@ -6,12 +6,12 @@ public class Door : MonoBehaviour {
 
 
     public Animator anim;
-	// Use this for initialization
+    private AudioSource Open;
 	void Start () {
-		
+        Open = GetComponent<AudioSource>();
 	}
 	
-	// Update is called once per frame
+	
 	void Update () {
 
 	}
@@ -23,6 +23,7 @@ public class Door : MonoBehaviour {
             if(ApplicationModel.power_state && ApplicationModel.entrance_state)
             {
                 anim.Play("opening");
+                Open.Play();
             }
 
         }
