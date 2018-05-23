@@ -20,9 +20,11 @@ public class Lever_Trigger : MonoBehaviour
 
     public Terminal_Trigger script;
 
+    private AudioSource Electricity;
     void Start()
     {
         text.SetActive(false);
+        Electricity = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -62,6 +64,7 @@ public class Lever_Trigger : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
+                Electricity.Play();
                 state = !state;
             }
         }

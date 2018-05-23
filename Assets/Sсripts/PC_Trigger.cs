@@ -38,7 +38,7 @@ public class PC_Trigger : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F))
             {
                 if (SceneManager.GetActiveScene().name != "var_1") return;
-                SceneManager.LoadScene("PC", LoadSceneMode.Additive);
+                SceneManager.LoadScene("PC_v2", LoadSceneMode.Additive);
             }
         }
     }
