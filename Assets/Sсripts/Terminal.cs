@@ -24,8 +24,7 @@ public class Terminal : MonoBehaviour {
 
         TermText.text = ">";
 
-        SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(0));
-
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Terminal_scene"));
         power_state = ApplicationModel.power_state;
         entrance_state = ApplicationModel.entrance_state;
     }
