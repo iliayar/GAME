@@ -493,7 +493,7 @@ MonoBehaviour:
   TermText: {fileID: 1673266475}
   StringFirstSign: 1
   WaitingType: 
-  TruePasswd: passwd
+  TruePasswd: Coretsim1
   power_state: 0
   entrance_state: 0
   Terminal_SpriteRenderer: {fileID: 294380402}

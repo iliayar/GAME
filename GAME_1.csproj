@@ -291,6 +291,7 @@
     <Compile Include="Assets\Sсripts\movement.cs" />
     <Compile Include="Assets\Sсripts\PC.cs" />
     <Compile Include="Assets\Sсripts\PC_Trigger.cs" />
+    <Compile Include="Assets\Sсripts\Play_menu.cs" />
     <Compile Include="Assets\Sсripts\Terminal.cs" />
     <Compile Include="Assets\Sсripts\Terminal_Trigger.cs" />
     <Compile Include="Assets\Sсripts\WorkMenu.cs" />
