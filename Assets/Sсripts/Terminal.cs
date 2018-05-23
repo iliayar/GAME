@@ -122,7 +122,7 @@ public class Terminal : MonoBehaviour {
 
                     case "exit":
                     case "quit":
-                        SceneManager.UnloadScene("Terminal_scene");
+                        SceneManager.UnloadSceneAsync("Terminal_scene");
                         break;
                     default:
                         TermText.text += "Unknown command";

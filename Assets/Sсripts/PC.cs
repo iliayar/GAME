@@ -96,7 +96,7 @@ public class PC : MonoBehaviour
                         break;
                     case "exit":
                     case "quit":
-                        SceneManager.UnloadScene("PC");
+                        SceneManager.UnloadSceneAsync("PC");
                         break;
                     default:
                         PCText.text += "Unknown command";

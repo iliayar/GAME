@@ -472,66 +472,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'gfdgfd
-
-
-    gdf
-
-    g
-
-    df
-
-    g
-
-    fg
-
-    f
-
-    gf
-
-    g
-
-    fg
-
-    f
-
-    gf
-
-    gf
-
-    g
-
-    fg
-
-    fg
-
-    fg
-
-    fg
-
-    f
-
-    gf
-
-    gf
-
-    gf
-
-    gf
-
-    gf
-
-    gf
-
-    gfg
-
-    f
-
-    k
-
-    ko
-
-'
+  m_Text: 
 --- !u!222 &1673266476
 CanvasRenderer:
   m_ObjectHideFlags: 0

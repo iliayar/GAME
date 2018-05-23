@@ -32,6 +32,14 @@ public class movement : MonoBehaviour
 
         vRes = new Vector2(0,0);
 
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            if(!SceneManager.GetSceneByName("Play_menu").isLoaded)
+            {
+                SceneManager.LoadScene("Play_menu", LoadSceneMode.Additive);
+            }
+        }
+
         if (Input.GetKey(ForwardKey))
         {
             v = new Vector3(0, speed);
